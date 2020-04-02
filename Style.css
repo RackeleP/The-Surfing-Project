@@ -1,0 +1,25 @@
+.jumbotron-fluid {
+    height: 500px;
+    background-image: url("surf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron-fluid::after {
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bloctxt h1{
+    transform: scale(1);
+}
